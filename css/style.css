@@ -1,0 +1,175 @@
+body {
+
+}
+nav{
+    height: 40px;
+    background: white;
+    font-size: 18px;
+    font-family:  'PT Sans', Arial, sans-serif;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    min-width: 850px;
+}
+
+nav ul {
+    padding: 0;
+    position: relative;
+}
+ul.menu li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 20px; /* Отступ слева */
+    padding: 3px; /* Поля вокруг текста */
+}
+.menu li:last-child{
+    margin-left: 10%;
+}
+.menu a{
+    color:#74B3C6;
+    text-decoration: none;
+}
+nav a#pull {
+    display: none;
+}
+#wrapper{
+    min-width: 850px;
+    height: 900px;
+    text-align: center;
+}
+.mainContent{
+    width: 100%;
+    height: 600px;
+    left: 0;
+    overflow: auto;;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    height: 600px;;
+    width: 100%;
+    top: 50px;
+    position: absolute;
+}
+.imageBackground {
+    background:  url(images/Object_3.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    position: absolute;
+}
+.colorBackground{
+    background-color: #9CC4CB;
+    opacity:.5;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    position: absolute;
+}
+.mainContent h1 {
+    position: absolute;
+    top: 10px;
+    right: 2%;
+    width: 100%;
+    color: white;
+    font-size: 38px;
+}
+.mainContent h5 {
+    position: absolute;
+    top: 55px;
+    right: 8%;
+    width: 100%;
+    color: white;
+    font-size: 18px;
+}
+.formContainer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 25%;
+}
+.mainContent .image {
+    background-image: url(images/Object_3.jpg);
+    background-size: cover;
+    width: 34%;
+    height: 67%;
+    display: inline-block;
+}
+.formRight{
+    margin-left: 1%;
+    width: 15%;
+    height: 67%;
+    display: inline-block;
+}
+iframe{
+    height: 100%;
+    background-color: white;
+}
+.formRight h2{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+ input, textarea{
+    width: 90%;
+    padding: 10px 10px 6px 10px;
+    border: 1.5px solid transparent ;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+    margin-bottom: 10px;
+    font-size: 1.0em;
+}
+ textarea{
+    font-size: 1.5em;
+     width: 90%; /* Ширина поля в процентах */
+     height: 80px; /* Высота поля в пикселах */
+     resize: none
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #bac4c3;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: #bac4c3;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: #bac4c3;
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: #bac4c3;
+}
+ button{
+    background-color: #74B3C6;
+    color: white;
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    font-family: "Bitter",serif;
+    box-shadow: none;
+    border-radius: 0;
+    border-color: #74B3C6;
+    margin-top: 15px;
+}
+button:focus {
+    outline: none
+}
+.anchor {
+    position: absolute;
+
+ }
+.anchor a{
+    background-image: url(images/1600.jpg);
+}
+#description{
+    background-color: #9CC4CB;
+    width: 100%;
+    height: 300px;
+    left: 0;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+.descriptionInner{
+    height: 300px;;
+    width: 50%;
+    position: absolute;
+}
+
