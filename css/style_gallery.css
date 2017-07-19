@@ -1,0 +1,87 @@
+
+.headerInner{
+    margin-right: 10%;
+}
+.headerInner .icon{
+
+    background-size: cover;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+nav{
+    height: 40px;
+    background: white;
+    font-size: 18px;
+    font-family:  'PT Sans', Arial, sans-serif;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    min-width: 960px;
+}
+
+nav ul {
+    padding: 0;
+    position: relative;
+}
+ul.menu li {
+    display: inline;
+    margin-right: 1%;
+    float: right;
+    padding: 3px;
+    margin-top: 70px;
+}
+.menu a{
+    color:#74B3C6;
+    text-decoration: none;
+}
+nav a#pull {
+    display: none;
+}
+#wrapper{
+    min-width: 960px;
+    height: 900px;
+    text-align: center;
+    min-height:100%;
+}
+.images{
+    display: inline-block;
+    width: 475px;
+    height: 356px;
+    background-size: cover;
+}
+
+#footer{
+    height: 10px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+}
+#footer,.footerInner {
+    width: 100%;
+}
+.footerInner, #footer h3, .following, .following p, .following img{
+    display: inline-block;
+}
+.following{
+    float: right;
+}
+.footerInner h3{
+    margin-left: 20%;
+
+}
+.following{
+    margin-right: 15%;
+    font-weight: bold;
+    margin-top: 60px;
+}
+.following p{
+    margin-right: 30px;
+}
+.following img {
+    width: 30px;
+    height: 30px;
+}
+
+
+
