@@ -1,6 +1,5 @@
-body {
 
-}
+
 nav{
     height: 40px;
     background: white;
@@ -9,7 +8,7 @@ nav{
     font-weight: bold;
     position: relative;
     text-align: center;
-    min-width: 850px;
+    min-width: 960px;
 }
 
 nav ul {
@@ -18,7 +17,7 @@ nav ul {
 }
 ul.menu li {
     display: inline; /* Отображать как строчный элемент */
-    margin-right: 20px; /* Отступ слева */
+    margin-right: 3%; /* Отступ слева */
     padding: 3px; /* Поля вокруг текста */
 }
 .menu li:last-child{
@@ -32,57 +31,58 @@ nav a#pull {
     display: none;
 }
 #wrapper{
-    min-width: 850px;
+    min-width: 960px;
     height: 900px;
     text-align: center;
+    min-height:100%;
 }
-.mainContent{
+.mainContent,.imageBackground,.colorBackground {
     width: 100%;
     height: 600px;
+}
+.container,.imageBackground,.colorBackground,.mainContent h1,.mainContent h5,.formContainer,#description
+{
+    position: absolute;
+}
+.mainContent,.container, .imageBackground,.colorBackground,.mainContent h1,.mainContent h5  {
+    min-width: 960px;
+}
+.mainContent{
     left: 0;
-    overflow: auto;;
+    overflow: auto;
     display: flex;
     justify-content: center;
 }
+
 .container{
     height: 600px;;
-    width: 100%;
+    width: 80%;
     top: 50px;
-    position: absolute;
 }
 .imageBackground {
     background:  url(images/Object_3.jpg) no-repeat;
     background-size: cover;
-    width: 100%;
-    height: 600px;
-    position: absolute;
 }
 .colorBackground{
     background-color: #9CC4CB;
-    opacity:.5;
+    opacity:.8;
     background-size: cover;
-    width: 100%;
-    height: 600px;
-    position: absolute;
 }
 .mainContent h1 {
-    position: absolute;
     top: 10px;
-    right: 2%;
+    right: 14%;
     width: 100%;
     color: white;
     font-size: 38px;
 }
 .mainContent h5 {
-    position: absolute;
     top: 55px;
-    right: 8%;
+    right: 17%;
     width: 100%;
     color: white;
     font-size: 18px;
 }
 .formContainer{
-    position: absolute;
     width: 100%;
     height: 100%;
     top: 25%;
@@ -90,7 +90,7 @@ nav a#pull {
 .mainContent .image {
     background-image: url(images/Object_3.jpg);
     background-size: cover;
-    width: 34%;
+    width: 60%;
     height: 67%;
     display: inline-block;
 }
@@ -101,6 +101,7 @@ nav a#pull {
     display: inline-block;
 }
 iframe{
+
     height: 100%;
     background-color: white;
 }
@@ -137,6 +138,7 @@ iframe{
 }
  button{
     background-color: #74B3C6;
+    opacity:.8;
     color: white;
     width: 100%;
     height: 40px;
@@ -150,26 +152,62 @@ iframe{
 button:focus {
     outline: none
 }
-.anchor {
-    position: absolute;
 
- }
-.anchor a{
-    background-image: url(images/1600.jpg);
-}
 #description{
     background-color: #9CC4CB;
+    opacity:.8;
     width: 100%;
+    max-height: 600px;
     height: 300px;
     left: 0;
     overflow: auto;
     display: flex;
     justify-content: center;
-    position: absolute;
+
 }
 .descriptionInner{
-    height: 300px;;
-    width: 50%;
-    position: absolute;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family:Georgia;
 }
+#description h2{
+    text-align: left;
+    font-size: 30px;
+}
+#description p{
+    text-align: left;
+}
+
+#footer{
+    height: 10px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+}
+#footer,.footerInner {
+    width: 100%;
+}
+.footerInner, #footer h3, .following, .following p, .following img{
+    display: inline-block;
+}
+.following{
+    float: right;
+}
+.footerInner h3{
+    margin-left: 20%;
+
+}
+.following{
+    margin-right: 15%;
+    font-weight: bold;
+}
+.following p{
+    margin-right: 30px;
+}
+.following img {
+    width: 40px;
+    height: 40px;
+}
+
+
 
