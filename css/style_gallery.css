@@ -1,6 +1,8 @@
 
 .headerInner{
     margin-right: 10%;
+    height: 100px;
+    width: 100%;
 }
 .headerInner .icon{
 
@@ -31,6 +33,9 @@ ul.menu li {
     padding: 3px;
     margin-top: 70px;
 }
+.active{
+        color:#f00;
+}
 .menu a{
     color:#74B3C6;
     text-decoration: none;
@@ -38,17 +43,26 @@ ul.menu li {
 nav a#pull {
     display: none;
 }
+
 #wrapper{
     min-width: 960px;
-    height: 900px;
-    text-align: center;
+    height: 1420px;
     min-height:100%;
+    margin-top: 10px;
 }
 .images{
+    width: 100%;
+    height: 356px;
+
+}
+.images img{
+    margin: 0;
+    border: 0;
     display: inline-block;
-    width: 475px;
+    width: 33%;
     height: 356px;
     background-size: cover;
+    display: inline-block;
 }
 
 #footer{
