@@ -30,6 +30,9 @@ ul.menu li {
 nav a#pull {
     display: none;
 }
+.menu li:first-child a{
+    color:#08477d;
+}
 #wrapper{
     min-width: 960px;
     height: 900px;
