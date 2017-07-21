@@ -80,7 +80,7 @@ nav a#pull {
 
 
 }
-.text_company {
+.text_company,.text_contacts {
     position: absolute;
     height: 70%;
     width: 30%;
@@ -98,8 +98,28 @@ nav a#pull {
 }
 .font_2{
     font-size: 20px;
+}
+.text_company p{
     margin: 10%;
 }
+.formRight{
+    margin-left: 1%;
+    width: 15%;
+    border-left-width: 20px;
+    padding-left: 15%;
+    padding-top: 2%;
+    height: 62%;
+    display: inline-block;
+}
+.text_contacts h3, .text_contacts p{
+    padding-left: 15%;
+}
+iframe{
+
+    height: 100%;
+    background-color: white;
+}
+
 #footer{
     height: 10px;
     position: relative;

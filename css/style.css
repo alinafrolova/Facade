@@ -35,7 +35,7 @@ nav a#pull {
 }
 #wrapper{
     min-width: 960px;
-    height: 900px;
+    height: 850px;
     text-align: center;
     min-height:100%;
 }
@@ -112,7 +112,13 @@ iframe{
     font-weight: bold;
     margin-bottom: 5px;
 }
-
+.font_1 {
+    margin-top: 10%;
+    margin-left: 10%;
+    letter-spacing: 0.1em;
+    font: normal normal normal 26px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+    color: rgba(94,93,93,1);
+}
  input, textarea{
     width: 90%;
     padding: 10px 10px 6px 10px;
@@ -161,7 +167,7 @@ button:focus {
     opacity:.8;
     width: 100%;
     max-height: 600px;
-    height: 300px;
+    height: 250px;
     left: 0;
     overflow: auto;
     display: flex;
