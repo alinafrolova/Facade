@@ -5,6 +5,7 @@
     <title>Advice</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href="css/style_gallery.css" rel="stylesheet">
+    <link href="css/style-modal.css" rel="stylesheet">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     <script src="js/index.js"></script>
 </head>
@@ -31,8 +32,33 @@
 
     </nav>
 </header>
-<section id="wrapper" style="height: 800px">
+<section id="wrapper" style="height: 1000px">
+    <div class="container">
+        <div class="sticker-blue">
+            <div class="font-sticker">
+                <a href="#win1" class="sticker-first"> <h3 > Виды теплоизоляции.</h3>
+                <p>Вспененный пенополистирол</p>
+                </a>
 
+            </div>
+        </div>
+        <div class="sticker-blue">
+            <div class="font-sticker">
+                <a href="#win1" class="sticker-first"> <h3 > Совет 2</h3> </a>
+            </div>
+        </div>
+        <div class="sticker-blue">
+            <div class="font-sticker">
+                <a href="#win1" class="sticker-first"> <h3 > Совет 3</h3> </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" style="height: 600px">
+        <div class="sticker-green"> <a href="#win4" class="sticker-first"> <h3 > Совет 4</h3> </a></div>
+        <div class="sticker-green"> <a href="#win" class="sticker-first"> <h3 > Совет 5</h3> </a></div>
+        <div class="sticker-green"> <a href="#win" class="sticker-first"> <h3 > Совет 6</h3> </a></div>
+    </div>
 
 </section>
 <footer id="footer">
@@ -40,5 +66,52 @@
         <h3>© 2017 Утепление фасадов, архитектурная отделка</h3>
     </div>
 </footer>
+
+<!--Модальное окно blue-->
+
+<a href="#x" class="overlay" id="win1"></a>
+<div class="popup-blue">
+    <div class="font-popup">
+    <h1>Виды теплоизоляции.</h1>
+            <p>Теплоизоляция может быть внутренней и наружной. Наиболее эффективным материалом для внутреннего и наружного утепления признана волоконная теплоизоляция: стеклянная, базальтовая и шлаковая. Она незаменима для утепления неровных поверхностей, карманов и углов. Данный утеплитель применяется совместно с гидро- и пароизолирующими пленками.</p>
+            <div class="advice-li">
+                <h3>Вспененный пенополистирол</h3>
+                <img src="images/expanded_polystyrene.jpg" alt="Вспененный пенополистирол" >
+                <p>
+                    имеет более низкую теплопроводность, но большую паропроницаемость и горючесть по сравнению с волоконной, поэтому не рекомендован для вентилируемых каменных фасадов. Утеплитель может применяться для наружной теплоизоляции стен любого типа с последующим  оштукатуриванием и не пригоден для утепления деревянных фасадов.
+                </p>
+            </div>
+        <div class="advice-li">
+            <h3>Экструдированный пенополистирол </h3>
+            <img src="images/extruded_polystyrene.jpg" alt="Экструдированный пенополистирол" >
+            <p>
+                обладает низкой теплопроводностью и высокой механической прочностью, устойчив к воде и замораживанию. Основным недостатком является отсутствие паропроницаемости.
+            </p>
+        </div>
+        <div class="advice-li">
+            <h3>Минеральная вата</h3>
+            <img src="images/mineral_wool.jpg" alt="Минеральная вата" >
+            <p>
+                обладает уникальными свойствами:Огнестойкость, Биологическая и химическая стойкость к различным агрессивным веществам, Незначительная степень термической, а также естественной усадки, Негигроскопичность, Паропроницаемость, Низкая теплопроводность, Высокая звукоизоляция, Высокая прочность и коррозийная устойчивост, Экологичность, Долговечность
+            </p>
+        </div>
+
+    </div>
+ <a class="close" title="Закрыть" href="#close"></a>
+
+</div>
+
+<!--Модальное окно green-->
+<a href="#x" class="overlay" id="win4"></a>
+<div class="popup-green">
+
+      <div class="font-popup"> <h1>Совет1</h1>
+        <h2>Виды теплоизоляции.</h2>
+        <p>Теплоизоляция может быть внутренней и наружной. Наиболее эффективным материалом для внутреннего и наружного утепления признана волоконная теплоизоляция: стеклянная, базальтовая и шлаковая. Она незаменима для утепления неровных поверхностей, карманов и углов. Данный утеплитель применяется совместно с гидро- и пароизолирующими пленками.</p>
+
+</div>
+    <a class="close" title="Закрыть" href="#close"></a>
+    </div>
+
 </body>
 </html>

@@ -119,6 +119,29 @@ iframe{
     height: 100%;
     background-color: white;
 }
+.container{
+    height: 430px;
+}
+.sticker-blue{
+    background: url(images/sticker1.png) no-repeat;
+    display: inline-block;
+    width: 33%;
+    height: 100%;
+    background-size: cover;
+}
+.sticker-green{
+    background: url(images/sticker2.png) no-repeat;
+    display: inline-block;
+    width: 33%;
+    height: 100%;
+    background-size: cover;
+}
+.font-sticker{
+    margin-left: 4%;
+    margin-top: 9%;
+    position: absolute;
+
+}
 
 #footer{
     height: 10px;
