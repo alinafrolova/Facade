@@ -35,7 +35,6 @@ nav a#pull {
 }
 #wrapper{
     min-width: 960px;
-    height: 850px;
     text-align: center;
     min-height:100%;
 }
@@ -110,10 +109,10 @@ iframe{
 }
 .formRight h2{
     font-weight: bold;
-    margin-bottom: 5px;
+    margin-bottom: 5%;
 }
 .font_1 {
-    margin-top: 10%;
+    margin-top: 5%;
     margin-left: 10%;
     letter-spacing: 0.1em;
     font: normal normal normal 26px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
@@ -156,7 +155,7 @@ iframe{
     box-shadow: none;
     border-radius: 0;
     border-color: #74B3C6;
-    margin-top: 15px;
+    margin-top: 2%;
 }
 button:focus {
     outline: none
@@ -167,13 +166,13 @@ button:focus {
     opacity:.8;
     width: 100%;
     max-height: 600px;
-    height: 250px;
     left: 0;
     overflow: auto;
     display: flex;
     justify-content: center;
 
 }
+
 .descriptionInner{
     margin-left: 20%;
     margin-right: 20%;
@@ -182,6 +181,8 @@ button:focus {
 #description h2{
     text-align: left;
     font-size: 30px;
+    margin-bottom: 2%;
+    margin-top: 2%;
 }
 #description p{
     text-align: left;
