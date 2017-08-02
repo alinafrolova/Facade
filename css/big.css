@@ -9,15 +9,18 @@
         height: 380px;
     }
 }
-@media screen and (min-height: 768px) {
+@media screen and (max-height: 2880px) {
+
+    #wrapper{
+        height: 860px;
+    }
     #description {
         height: 250px;
     }
-    #wrapper{
-        height: 850px;
-    }
+
     .images img{
         height: 420px;
     }
+
 
 }

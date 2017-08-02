@@ -79,6 +79,9 @@ transition: transform 0.6s ease-out;
     background: url(images/advice2.png) no-repeat;
     background-size: contain;
 }
+.sticker-green .font_3 {
+    margin-left: 31%;
+}
 /* активируем мод. окно */
 .overlay:target+.popup-blue,.overlay:target+.popup-green {
 
@@ -145,8 +148,8 @@ display: block;
 border: none;
 height: auto;
  float:left; /* Выравнивание по левому краю */
-margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
-  width: 10%;
+margin: 2px 7px 7px 0; /* Отступы вокруг картинки */
+
 }
 .popup-green img{
     display: block;
@@ -189,5 +192,8 @@ height: 100%;
 }
 
 .advice-li{
+    margin-bottom:1%;
+}
+.advice-li p{
     margin-bottom: 2%;
 }

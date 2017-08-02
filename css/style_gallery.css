@@ -69,7 +69,9 @@ nav a#pull {
     display: inline-block;
     width: 33.33%;
     background-size: cover;
+    height: 100%;
 }
+
 .images_company {
     background: url(images/company.jpg) no-repeat;
     -moz-background-size: 100%; /* Firefox 3.6+ */
@@ -121,9 +123,7 @@ iframe{
     height: 100%;
     background-color: white;
 }
-.container{
-    height: 430px;
-}
+
 .sticker-blue:first-child,.sticker-blue:last-child, .sticker-blue{
     background: url(images/sticker1.png) no-repeat;
     display: inline-block;
@@ -136,16 +136,14 @@ iframe{
     background: url(images/sticker2.png) no-repeat;
     display: inline-block;
     width: 45%;
-    height: 100%;
+    height: 150%;
     background-size: cover;
     margin-left: 2%;
 }
 .sticker-blue .font-sticker{
-    margin-left: 2%;
+    margin-left: 3%;
 
-}.sticker-green .font-sticker{
-     margin-left: 6%;
- }
+}
 .font-sticker{
     margin-top: 9%;
     position: absolute;
@@ -194,32 +192,26 @@ iframe{
     color: wheat;
 }
 .sticker-blue .font_3{
-    margin-bottom: 7%;
-}
-.sticker-blue:first-child .font_4 {
-    margin-left: 10%;
-    line-height: 2.5;
-}
-.sticker-green .font_3{
-    margin-left: 31%;
     margin-bottom: 2%;
 }
-.sticker-green:last-child .font_3 {
-    margin-left: 45%;
+.sticker-blue:first-child .font_4 {
+    margin-left: 2%;
+    line-height: 2;
 }
-.sticker-green:last-child  .font_4 {
-    margin-left: 30%;
-    line-height: 2.5;
+.sticker-blue:first-child .font_3 {
+    margin-bottom: 1%;
 }
+.sticker-green .font_3{
+    margin-bottom: 2%;
+}
+
 .font_4{
     font-family: "Sabon",sans-serif;
     font-size:medium;
     line-height: 1.5;
     color: honeydew;
 }
-.sticker-green .font_4{
-    margin-left: 10%;
-}
+
 
 
 
