@@ -4,7 +4,6 @@
 }
 .headerInner{
     margin-right: 10%;
-    height: 90px;
     width: 100%;
 }
 .headerInner .icon{
@@ -23,7 +22,7 @@ nav{
     font-weight: bold;
     position: relative;
     text-align: center;
-    min-width: 960px;
+    min-width: 768px;
 }
 
 nav ul {
@@ -71,26 +70,23 @@ nav a#pull {
     background-size: cover;
     height: 100%;
 }
-
 .images_company {
-    background: url(images/company.jpg) no-repeat;
     -moz-background-size: 100%; /* Firefox 3.6+ */
     -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
     -o-background-size: 100%; /* Opera 9.6+ */
 
-    width: 100%;
-    height: 100%;
-
-
 }
+
 .text_company,.text_contacts {
     position: absolute;
     background: white;
     opacity:.9;
-    margin-top: 5%;
-
+    min-width: 450px;
 }
-
+iframe{
+    padding-left: 5%;
+    padding-right: 5%;
+}
 .font_1 {
     margin-top: 5%;
     margin-left: 10%;
@@ -167,8 +163,7 @@ iframe{
     float: right;
 }
 .footerInner h3{
-    margin-left: 20%;
-    margin-top: 10px;
+       margin-top: 10px;
     border-bottom-width: 20px;
     margin-bottom: 15px;
     font-family: Akzidenz Grotesk Bold,sans-serif;
